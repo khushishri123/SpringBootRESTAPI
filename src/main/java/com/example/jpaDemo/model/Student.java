@@ -13,6 +13,17 @@ public class Student {
     private String name;
     private String city;
     private float percentage;
+    public Student()
+    {
+
+    }
+
+    public Student(int i, String name, String city, float percentage) {
+        this.rollNumber=i;
+        this.name=name;
+        this.city=city;
+        this.percentage=percentage;
+    }
 
     public float getPercentage() {
         return percentage;

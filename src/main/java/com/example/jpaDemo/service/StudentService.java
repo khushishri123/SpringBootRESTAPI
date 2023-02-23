@@ -39,7 +39,7 @@ public class StudentService {
         s1.setCity(student.getCity());
         s1.setPercentage(student.getPercentage());
         this.studentRepo.save(s1);
-        return "Student updated suceessfully";
+        return "Student updated successfully";
     }
     public String deleteStudentById(Integer rollNumber)
     {
